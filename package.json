@@ -1,0 +1,25 @@
+{
+  "name": "styled-bootstrap",
+  "version": "0.0.0",
+  "description": "use bootstrap mixins as js function",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makemek/styled-bootstrap.git"
+  },
+  "keywords": [
+    "styled-components",
+    "react",
+    "bootstrap",
+    "mixins",
+    "css-in-js"
+  ],
+  "author": "Apipol Niyomsak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makemek/styled-bootstrap/issues"
+  },
+  "homepage": "https://github.com/makemek/styled-bootstrap#readme"
+}
