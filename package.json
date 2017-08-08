@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "description": "use bootstrap mixins as js function",
   "scripts": {
+    "lint": "eslint lib",
     "test": "jest",
-    "precommit": "npm test",
-    "prepush": "npm test"
+    "precommit": "npm run lint && npm test",
+    "prepush": "npm run lint && npm test"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,8 @@
     "babel-preset-react": "^6.24.1",
     "enzyme": "^2.9.1",
     "enzyme-to-json": "^1.5.1",
+    "eslint": "^4.4.1",
+    "eslint-plugin-react": "^7.1.0",
     "husky": "^0.14.3",
     "jest": "^20.0.4",
     "jest-styled-components": "^4.3.0",
