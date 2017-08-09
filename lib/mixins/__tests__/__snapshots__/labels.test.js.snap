@@ -1,42 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`mixin: label label_variant should accept hsl color 1`] = `
-.c0 {
-  background-color: hsl(0,0%,100%);
-}
-
-.c0[href]:hover,
-.c0[href]:focus {
-  background-color: rgb(230,230,230);
-}
-
-<span
-  className="c0"
->
-  styled label
-</span>
-`;
-
-exports[`mixin: label label_variant should accept named color 1`] = `
+exports[`mixin: label label_variant should match snapshot 1`] = `
 .c0 {
   background-color: white;
-}
-
-.c0[href]:hover,
-.c0[href]:focus {
-  background-color: rgb(230,230,230);
-}
-
-<span
-  className="c0"
->
-  styled label
-</span>
-`;
-
-exports[`mixin: label label_variant should accept web color 1`] = `
-.c0 {
-  background-color: #fff;
 }
 
 .c0[href]:hover,
