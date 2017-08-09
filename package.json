@@ -1,6 +1,7 @@
 {
   "name": "styled-bootstrap",
   "version": "0.0.0",
+  "main": "lib/index.js",
   "description": "use bootstrap mixins as js function",
   "scripts": {
     "lint": "eslint lib",
