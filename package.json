@@ -46,6 +46,7 @@
     "styled-components": "2.x"
   },
   "dependencies": {
+    "lodash.defaultto": "^4.14.0",
     "polished": "^1.4.0"
   },
   "jest": {
