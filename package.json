@@ -1,14 +1,15 @@
 {
-  "name": "styled-bootstrap",
+  "name": "styled-bootstrap-mixins",
   "version": "0.0.0",
   "main": "dist/index.js",
-  "description": "use bootstrap mixins as js function",
+  "description": "use bootstrap mixins with styled-components",
   "scripts": {
-    "build": "babel lib --out-dir dist --source-maps --ignore *.test.js",
+    "build": "babel lib --out-dir dist --copy-files --source-maps --ignore *.test.js",
     "lint": "eslint lib",
     "test": "jest",
     "precommit": "npm run lint && npm test",
-    "prepush": "npm run lint && npm test"
+    "prepush": "npm run lint && npm test",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
