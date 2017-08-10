@@ -1,9 +1,10 @@
 {
   "name": "styled-bootstrap",
   "version": "0.0.0",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "description": "use bootstrap mixins as js function",
   "scripts": {
+    "build": "babel lib --out-dir dist --source-maps --ignore *.test.js",
     "lint": "eslint lib",
     "test": "jest",
     "precommit": "npm run lint && npm test",
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/makemek/styled-bootstrap#readme",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
     "babel-jest": "^20.0.3",
     "babel-preset-env": "^1.6.0",
