@@ -1,6 +1,6 @@
 {
   "name": "styled-bootstrap-mixins",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "description": "use bootstrap mixins with styled-components",
   "scripts": {
