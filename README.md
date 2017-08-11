@@ -1,4 +1,4 @@
-# styled-bootstrap-mixins [![Build Status](https://travis-ci.org/makemek/styled-bootstrap.svg?branch=master)](https://travis-ci.org/makemek/styled-bootstrap)
+# styled-bootstrap-mixins [![Build Status](https://travis-ci.org/makemek/styled-bootstrap-mixins.svg?branch=master)](https://travis-ci.org/makemek/styled-bootstrap-mixins)
 
 Call bootstrap mixin from javascript to use with [styled-components](https://github.com/styled-components/styled-components).
 All mixins are based on [bootstrap-sass](https://github.com/twbs/bootstrap-sass).
